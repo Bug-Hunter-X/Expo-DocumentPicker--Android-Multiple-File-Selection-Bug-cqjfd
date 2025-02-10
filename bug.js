@@ -1,0 +1,1 @@
+This bug occurs when using the Expo DocumentPicker API on Android.  When selecting multiple files, the resulting file URIs might be duplicated or contain unexpected null values within the array. This inconsistency can lead to errors when processing the selected files.
